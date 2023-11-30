@@ -12,30 +12,13 @@ dependencies:
   http: ^0.13.4
   universal_html: ^2.0.8
   ffi: ^2.0.1
-  image: ^3.1.1
+  image: ^4.0.0
   flutter_gl:
     git: 
       url: git@github.com:onecalfman/flutter_gl.git
       path: flutter_gl
   crypto: ^3.0.1
   meta:
-  
-  # opentype:
-  #   git: git@github.com:wasabia/opentype.git
-  # typr_dart:
-  #   # path: ../typr_dart
-  #   git: git@github.com:wasabia/typr_dart.git
-  # bidi_dart:
-  #   # path: ../bidi_dart
-  #   git: git@github.com:wasabia/bidi_dart.git
-  # flutter_webgpu:
-  #   path: ../flutter_webgpu
-
-dependency_overrides:
-  three_dart_jsm:
-    path: ../three_dart_jsm
-  flutter_gl:
-    path: ../flutter_gl/flutter_gl
 
 dev_dependencies:
   flutter_test:
