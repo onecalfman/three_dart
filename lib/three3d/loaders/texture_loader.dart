@@ -45,7 +45,8 @@ class TextureLoader extends Loader {
         imageElement = ImageElement(
             url: url is Blob ? "" : url, data: image, width: image.width!.toDouble(), height: image.height!.toDouble());
       } else {
-        var pixels = image.getBytes(format: Format.rgba);
+        // TODO fix format: was Format.rgba in previouse versions
+        var pixels = image.getBytes(format: Format.uint8);
 
         // print(" _pixels : ${_pixels.length} ");
         // print(" ------------------------------------------- ");
