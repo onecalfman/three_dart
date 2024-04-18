@@ -1,0 +1,14 @@
+name: three_dart_workspace
+
+packages:
+  - ./*
+  - ../three_dart_jsm/
+  - ../flutter_gl/flutter_gl
+
+command:
+  environment:
+    sdk: ">=3.0.0 <4.0.0"
+    flutter: ">=3.0.0 <4.0.0"
+  bootstrap:
+    runPubGetInParallel: true
+    usePubspecOverrides: true

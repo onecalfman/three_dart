@@ -37,11 +37,6 @@ dependencies:
       url: git@github.com:onecalfman/flutter_gl.git
       path: flutter_gl
 
-dependency_overrides:
-  three_dart:
-    path: ../
-
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
